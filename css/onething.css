@@ -1,0 +1,105 @@
+/* onething CSS rules */
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Open Sans', serif;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important; /* ie7 fix */
+    height: 100%;
+    margin: 0 auto -50px;
+}
+.inner-container {
+    position: absolute;
+    top: 50%;
+    height: 400px;
+    margin-top: -200px; /* negative half of the height */
+}
+.popover-title {
+    display: none;
+}
+.popover-content {
+    padding: 8px 0px 8px 0px;
+}
+.popover-content p {
+    font-size: 1.5em;
+    margin: 0px;
+}
+.popover-content p table {
+    border: 0px;
+    margin-bottom: 0px;
+}
+.popover-content p table tbody tr td {
+    text-align: center;
+    border-top: 0px;
+}
+.popover-content a {
+    color: #000;
+}
+.opening {
+    padding-top: 40px;
+    font-size: 2.0em;
+    line-height: 1.0em;
+    text-align: center;
+    color: #333;
+}
+.opening em {
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+}
+.thing {
+    padding: 40px 0px 0px 0px;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    text-align: center;
+}
+.thing a {
+    color: #000;
+}
+.thing a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #333;
+}
+.context {
+    padding-top: 40px;
+}
+.context p {
+    text-align: right;
+}
+.context em {
+    color: #000;
+    font-style: normal;
+    font-weight: 600;
+}
+.information {
+    height: 50px;
+}
+.information p {
+    text-align: right;
+}
+.information a {
+    color: #000;
+    font-weight: 600;
+}
+.gradient {
+  /* fallback */
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#D9EDF7));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #FFF, #D9EDF7);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #FFF, #D9EDF7);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #FFF, #D9EDF7);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #FFF, #D9EDF7);
+}
