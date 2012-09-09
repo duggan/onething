@@ -40,7 +40,6 @@ body {
     color: #000;
 }
 .opening {
-    padding-top: 40px;
     font-size: 2.0em;
     line-height: 1.0em;
     text-align: center;
@@ -72,8 +71,8 @@ body {
 }
 .context em {
     color: #000;
-    font-style: normal;
-    font-weight: 600;
+    font-style: italic;
+    font-weight: 500;
 }
 .information {
     height: 50px;
@@ -85,21 +84,25 @@ body {
     color: #000;
     font-weight: 600;
 }
+.information p.slow-web {
+    margin: 0 0 2px;
+}
+.information p.meta {
+    font-size: 0.8em;
+}
 .gradient {
-  /* fallback */
-
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#D9EDF7));
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#bcdef6));
 
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #FFF, #D9EDF7);
+  background: -webkit-linear-gradient(top, #FFF, #bcdef6);
 
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #FFF, #D9EDF7);
+  background: -moz-linear-gradient(top, #FFF, #bcdef6);
 
   /* IE 10 */
-  background: -ms-linear-gradient(top, #FFF, #D9EDF7);
+  background: -ms-linear-gradient(top, #FFF, #bcdef6);
 
   /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #FFF, #D9EDF7);
+  background: -o-linear-gradient(top, #FFF, #bcdef6);
 }
