@@ -50,4 +50,12 @@ To publish, all changes are committed, then pushed to the "published" branch of 
 
 `git push origin published`
 
+### Queue
+
+Queue something up to be published.
+
+`queue-push.py` takes the same parameters as `create.py`
+
+`queue-pop.py` takes an entry off the bottom of the queue and writes it as today's entry JSON.
+
 For now, historical "things" will not be public, to keep the focus narrow.
