@@ -1,11 +1,16 @@
 import pystache
 import json
 import sys
+import hashlib
 
 # Grab the first argument raw
 data_location = sys.argv[1]
 template_location = "template.mustache"
 index_location = "public/index.html"
+css_location = "public/css/onething.css"
+
+# Build version hash(es)
+css_hash = hashlib.md5(open(css_location,'rb').read()).hexdigest()
 
 # Pull in the JSON file
 with open(data_location) as f:
@@ -28,7 +33,8 @@ else:
 generated = pystache.render(template, {
    'url': entry['url'],
    'title':entry['title'],
-   'contributor':contributor
+   'contributor':contributor,
+   'css_hash':css_hash
 })
 
 with open(index_location, "wb+") as f:
