@@ -31,6 +31,7 @@ else:
    contributor = 'anonymous'
 
 generated = pystache.render(template, {
+   'verb':entry['verb'],
    'url': entry['url'],
    'title':entry['title'],
    'contributor':contributor,
