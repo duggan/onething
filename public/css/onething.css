@@ -13,6 +13,7 @@ body {
     margin: 0 auto -50px;
 }
 .inner-container {
+    width: 900px;
     position: absolute;
     top: 50%;
     height: 400px;
