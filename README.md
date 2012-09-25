@@ -58,4 +58,7 @@ Queue something up to be published.
 
 `queue-pop.py` takes an entry off the bottom of the queue and writes it as today's entry JSON.
 
+### Tweet
+
+`tweet.py` take today's thing and tweet it.
 For now, historical "things" will not be public, to keep the focus narrow.
