@@ -5,6 +5,8 @@ html {
 body {
     height: 100%;
     font-family: 'Open Sans', serif;
+    background-image: url(../img/grey.png) ;
+    background-repeat: repeat;
 }
 .wrapper {
     min-height: 100%;
@@ -77,13 +79,18 @@ body {
     font-weight: 500;
 }
 .information {
+    border-top: 6px solid #000;
+    padding-top: 6px;
+    color: #eee;
     height: 50px;
+    background-image: url(../img/dark_Tire.png) ;
+    background-repeat: repeat;
 }
 .information p {
     text-align: right;
 }
 .information a {
-    color: #000;
+    color: #fff;
     font-weight: 600;
 }
 .information p.slow-web {
@@ -91,20 +98,4 @@ body {
 }
 .information p.meta {
     font-size: 0.8em;
-}
-.gradient {
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#bcdef6));
-
-  /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, #FFF, #bcdef6);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, #FFF, #bcdef6);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(top, #FFF, #bcdef6);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(top, #FFF, #bcdef6);
 }
