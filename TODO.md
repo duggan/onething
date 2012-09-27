@@ -8,6 +8,7 @@ Your time is valuable.
 * CLI interface might work better if it resembles its data store, git.
 
 ## Features
+* Archive page
 
 ## Product
 
