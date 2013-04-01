@@ -12,7 +12,7 @@
                 <div class="inner-container">
                     <div class="opening">
                         <p>Your time is valuable.</p>
-                        <p> If you're going to {{verb}} one thing today it should be:</p>
+						<p> If you're going to {{verb}} one thing <em id="time" data-content="Posted {{time}}" rel="popover">today</em> it should be:</p>
                     </div>
                     <div class="thing">
                         <p><a href="{{url}}">{{title}}</a></p>
@@ -25,7 +25,10 @@
         </div>
         <div class="information container-fluid gradient">
             <p class="slow-web">part of the <a href="http://theslowweb.com/">slow web</a> movement.</p>
-        </div>
+		</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/onething.js"></script>
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
