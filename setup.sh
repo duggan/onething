@@ -5,4 +5,4 @@ apt-get install python-pip
 pip install pystache
 
 # For twitter integration
-pip install python-twitter
+pip install twitter
